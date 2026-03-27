@@ -1,38 +1,18 @@
-# 🔧 Predictive Maintenance System
+# 📰 Fake News Detection (Transformer Demo)
 
-Production-ready ML system for Remaining Useful Life (RUL) prediction.
+This project demonstrates a simple NLP pipeline using a transformer model.
 
-## Features
-- LSTM Deep Learning Model
-- MLflow Experiment Tracking
-- SHAP Explainability
-- FastAPI Deployment
-- Docker Support
-- Unit Testing
+## 🚀 Features
+- Transformer-based text classification
+- Streamlit web interface
+- Real-time prediction
 
-## Run Locally
+## ▶️ Run
 
-1. Install dependencies:
-pip install -r requirements.txt
+pip install -r requirements.txt  
+streamlit run app.py
 
-2. Train model:
-python src/train.py
-
-3. Run API:
-uvicorn api.main:app --reload
-
-## API Endpoint
-POST /predict → returns predicted RUL
-
-## Tech Stack
-- PyTorch
-- MLflow
-- FastAPI
-- SHAP
-- Docker
-
-## Academic Relevance
-- Deep Learning
-- Explainable AI
-- MLOps
-- Production Deployment
+## 🎓 Academic Relevance
+- NLP using Transformers
+- Model inference
+- Basic deployment using Streamlit
