@@ -1,0 +1,16 @@
+predictive-maintenance-rul/
+│
+├── src/
+│   ├── preprocess.py
+│   ├── train.py
+│   └── model.py
+│
+├── api/
+│   └── main.py
+│
+├── tests/
+│   └── test_model.py
+│
+├── requirements.txt
+├── README.md
+└── Dockerfile
